@@ -230,6 +230,7 @@ header li:hover a::before {
     flex-wrap: wrap;
     margin: 20px 50px 40px 50px;
     }
+
 .hosting_cities {
         display: flex;
         flex-wrap: wrap;
