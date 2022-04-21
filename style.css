@@ -1,4 +1,4 @@
-
+@media (min-width: 992px){
                                           /*FONT*/
     @font-face{
         font-family: 'Raleway';
@@ -539,3 +539,4 @@ footer {
     padding-bottom: 15px;
 }
 
+}
