@@ -1,13 +1,5 @@
 @media (max-width:992px) and (min-width:768px){
 
-    @font-face{
-        font-family: 'Raleway';
-        src: url(/Raleway-VariableFont_wght.ttf);
-        }
-        @font-face {
-            font-family: 'Raleway_bold';
-            src: url(/Raleway-Bold.ttf);
-        }
                                                         /*BODY*/
     * {
         box-sizing: border-box;
@@ -74,8 +66,7 @@ header nav li a {
 
 header nav ul a:hover {
     color: #0065FC;
-    text-shadow: #0065FC;
-    padding-top: 40px;  
+    text-shadow: #0065FC; 
 }
 header ul li:not(:hover) a::before {
     position: absolute;
@@ -95,10 +86,16 @@ header ul li:active{
     left: 0;
     background-color: #0065FC;   
 }
-header ul li:hover a::before {
-    top: 30px;                                       
+header li:hover a::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    top: 30px;
+    left: 0;
+    background-color:#0065FC;   
 }
-                                                /*SEARCH INPUT*/
+                                                /*SEARCH INPUT*/ 
 .search {
     margin: 0 20px;
 }
@@ -571,213 +568,5 @@ header ul li:hover a::before {
 .footer-container ul li {
     padding-bottom: 15px;
 }
-
-    /*body{
-        display: block;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-container {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 150px;
-            margin: 0;
-        }
-    
-        .logo_booki {
-            position: relative;
-        }
-    
-        .logo_booki img {
-            position: relative;
-            left: 125px;
-        }
-    
-        header nav {
-            display: flex;
-            width: 100%;
-        }
-    
-        header nav ul {
-            justify-content: space-around;
-            width: 100%;
-        }
-    
-        header nav ul li {
-            width: 50%;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        header nav ul li:not(:hover) a::before {
-            position: absolute;
-            content: '';
-            width: 100%;
-            height: 4px;
-            top: 30px;
-            left: 0;
-            background-color: #dddcdc;
-        }
-    
-        header ul li:hover a::before {
-            top: 30px;                                       
-        }
-                                                        /*SEARCH*/
-        /*                                                
-        .search {
-            margin: 0 20px;
-        }
-    
-        .search_input {
-            margin-top: 30px;
-            margin-bottom: 0;
-        }
-    
-        .search_input #city-finder {
-            padding: 15px 10px 15px 10px;
-        } 
-    
-        .search_input .send {
-            border-radius: 15px;
-            padding: 15px;
-            left: 230px;
-        }
-        
-        .search_input .send {
-            font-size: 0;  
-        }
-    
-        .search_input .send i {
-            display: inline;
-            color: #fff;
-            cursor: pointer;
-        }
-    
-        .search_input .send:hover i {
-            background-color: #F2F2F2;
-            color: #0065FC;
-        }
-    
-        .search_filter {
-            flex-direction: column;
-            margin: 0;
-        }
-    
-        .search_filter ul {
-            padding: 0;
-        }
-    
-        .search_filter h2 {
-            margin: 20px 0 0 0;
-        } */
-                                                                /*MOST POPULAR*/
-    /*                                                            
-    .hosting-most-popular{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 230px;
-        margin-bottom: 10px;
-        margin-left: 0;
-        padding: 0;
-    }
-    .hosting-most-popular .most-popular-title{
-        justify-content: flex-start;
-        justify-content: space-between;
-    }
-    .hosting-most-popular .most-popular-title h2{
-        margin-top: 0;
-    }
-    .hosting-most-popular .most-popular-title .icons i{
-        margin: 20px;
-    }
-    .hosting-most-popular .card{
-        width: 260px;
-        margin-left: 0;
-        height: 130px;
-    }
-    .hosting-most-popular .card img{
-        width: 100px;
-        height: 120px;
-    }
-    .hosting-most-popular .card-container {
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    }
-    .hosting-most-popular .card-container .card .card-body {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    */
-                                                    /*HOSTING*/
-                                                    /*
-    .hosting {
-        margin: 0;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-
-        }
-    .hosting_cities{
-        width: 100%;
-        background-color: #fff;
-    }
-    .hosting_cities .card-container{
-        width: 100%;
-    }
-    .hosting_cities .card-container .card{
-        height: 200px;
-        width: 45%;
-    }
-    .hosting_cities .card-picture img {
-        display: flex;
-        width: 335px;
-        height: 115px;
-        border-radius: 20px 20px 0 0;
-        margin-top: 5px;
-    }
-    .hosting_cities h2 {
-        margin: 40px 0 10px 20px;
-    } */
-                                                     /*ACTIVITY*/
-                                                     /*
-    .activity{
-        display: block;
-        width: 100%;
-        margin-bottom: 60px;
-        margin-left: 0;
-    }
-    .activity .activities{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .activities h2{
-        margin-left: 30px;
-        align-items: center;
-    }
-    .activities .card-container{
-        width: 95%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .activities .card-container .card{
-        width: 30%;
-    } */
-                                                /*FOOTER*/
-
-/*
-                                                .footer-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-left: 0;
-} 
-*/
 }
     

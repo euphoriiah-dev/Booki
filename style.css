@@ -1,13 +1,4 @@
-@media (min-width: 992px){
-                                          /*FONT*/
-    @font-face{
-        font-family: 'Raleway';
-        src: url(/Raleway-VariableFont_wght.ttf);
-        }
-        @font-face {
-            font-family: 'Raleway_bold';
-            src: url(/Raleway-Bold.ttf);
-        }
+@media (min-width: 992px){       
                                                         /*BODY*/
     * {
         box-sizing: border-box;
