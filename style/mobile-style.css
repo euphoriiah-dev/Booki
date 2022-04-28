@@ -1,5 +1,4 @@
 @media (max-width: 768px) {
-                                                        /*HEADER*/
 
                                                         /*BODY*/
 * {
@@ -25,8 +24,9 @@
         display: block;
         width: 100%;
         left: 0;
-    }                                      
-                                                          /*HEADER*/ 
+    }  
+
+/*HEADER*/ 
 header{
     width: 100%;
     margin-bottom: 40px;
@@ -94,7 +94,9 @@ header li:hover a::before {
     left: 0;
     background-color:#0065FC;   
 }
-                                                /*SEARCH INPUT*/ 
+
+/*SEARCH INPUT*/ 
+
 .search {
     margin: 0 20px;
 }
@@ -170,7 +172,8 @@ header li:hover a::before {
     background-color: #F2F2F2;
     color: #0065FC;
 }
-                                        /*SEARCH FILTERS*/ 
+
+/*SEARCH FILTERS*/ 
 
 .search_filter {
     display: flex;
@@ -241,7 +244,9 @@ header li:hover a::before {
     border-radius: 50%;
     font-size: 13px;
 }
-                                                                        /*HOSTING*/ 
+
+/*HOSTING*/
+
 .hosting {
     display: flex;
     justify-content: space-between;
@@ -316,12 +321,12 @@ header li:hover a::before {
         color: #0065FC;
     }
     
-    .hosting_cities .card-info p {
+    .hosting_cities .card-title p {
         margin: 5px 0 0 0;
         font-size: 14px;
     }
     
-    .hosting_cities .card-info span {
+    .hosting_cities .card-title span {
         font-weight: 700;
         font-size: 14px;
     }
@@ -559,7 +564,7 @@ header li:hover a::before {
         height: 155px;
     }
                                                                 /*FOOTER*/
-    .footer-container {
+    footer {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -570,25 +575,25 @@ header li:hover a::before {
         margin-left: 0;
         background-color: #F2F2F2;
     }
-    .footer-container h2 {
+    footer h2 {
         margin-top: 50px;
     }
     
-    .footer-container h2 a {
+    footer h2 a {
         font-size: 18px;
         font-weight: 800;
     }
     
-    .footer-container a:hover{
+    footer a:hover{
         color: #0065FC;
         text-shadow: #89a5ce 0 0 1px;
     }
     
-    .footer-container ul {
+    footer ul {
         padding: 0;
     }
     
-    .footer-container ul li {
+    footer ul li {
         padding-bottom: 15px;
     }
 }  

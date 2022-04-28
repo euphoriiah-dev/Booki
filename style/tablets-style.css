@@ -66,7 +66,6 @@ header nav li a {
 
 header nav ul a:hover {
     color: #0065FC;
-    text-shadow: #0065FC; 
 }
 header ul li:not(:hover) a::before {
     position: absolute;
@@ -311,12 +310,12 @@ header li:hover a::before {
         color: #0065FC;
     }
     
-    .hosting_cities .card-info p {
+    .hosting_cities .card-title p {
         margin: 5px 0 0 0;
         font-size: 14px;
     }
     
-    .hosting_cities .card-info span {
+    .hosting_cities .card-title span {
         font-weight: 700;
         font-size: 14px;
     }
@@ -536,7 +535,7 @@ header li:hover a::before {
     height: 165px;
 }
                                                     /*FOOTER*/
-.footer-container {
+footer {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -547,25 +546,25 @@ header li:hover a::before {
     margin-left: 0;
     background-color: #F2F2F2;
 }
-.footer-container h2 {
+footer h2 {
     margin-top: 50px;
 }
 
-.footer-container h2 a {
+footer h2 a {
     font-size: 18px;
     font-weight: 800;
 }
 
-.footer-container a:hover{
+footer a:hover{
     color: #0065FC;
     text-shadow: #89a5ce 0 0 1px;
 }
 
-.footer-container ul {
+footer ul {
     padding: 0;
 }
 
-.footer-container ul li {
+footer ul li {
     padding-bottom: 15px;
 }
 }
