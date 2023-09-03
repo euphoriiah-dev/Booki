@@ -67,23 +67,15 @@ header nav li a {
 header nav ul a:hover {
     color: #0065FC;
 }
-header ul li:not(:hover) a::before {
+
+header ul li:not(:hover) a::before{
     position: absolute;
     content: '';
     width: 100%;
     height: 4px;
     top: 30px;
     left: 0;
-    background-color: #dddcdc;
-}
-header ul li:active{
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 4px;
-    top: 30px;
-    left: 0;
-    background-color: #0065FC;   
+    background-color: #dddcdc;   
 }
 header li:hover a::before {
     position: absolute;
@@ -157,9 +149,7 @@ header li:hover a::before {
 }
 
 .search_input .send i {
-    display: inline;
-    color: #fff;
-    cursor: pointer;
+    display:none;
 }
 
 .search_input .send:hover {
